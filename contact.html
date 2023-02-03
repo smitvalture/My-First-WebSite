@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="contact-body">
+    <h2>Contact Detsils</h2>
+    <div class="contact-div-info">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><b>E-Mail: </b></td>
+                    <td> <a href="mailto:valture16@gmail.com">valture16@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <td><b>Phone no.: </b></td>
+                    <td> <a href="tel:+919512321181">+919512321181</a></td>
+                </tr>
+                <tr>
+                    <td><b>Address: </b></td>
+                    <td>XYZ Society, Surat, Gujarat, India</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+    <form action="mailto:valture16@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="yourName" id="name"><br>
+
+        <label for="email">Enter your email: </label>
+        <input type="email" name="yourEmail" id="email"><br>
+
+        <label for="message">Your message: </label><br>
+        <textarea name="yourMessage" cols="30" rows="10"></textarea><br>
+
+        <!-- <form method="post">
+            <fieldset>
+              <legend>Do you agree to the terms?</legend>
+              <label><input type="radio" name="radio" value="yes" /> Yes</label>
+              <label><input type="radio" name="radio" value="no" /> No</label>
+            </fieldset>
+          </form> -->
+
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+
+</html>
